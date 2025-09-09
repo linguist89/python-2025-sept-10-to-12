@@ -1,5 +1,5 @@
 (intro)=
-# Python Programming 2025 September 10 - 12
+# Python Programming 2025 September 10
 
 Welcome to the Python Programming course running on September 10-12, 2025. This the first day of the multi-day course, designed to introduce you to the fundamentals of Python programming through 6 focused sessions with real-world applications.
 

@@ -1,4 +1,4 @@
-# Python Programming 2025 September 10 - 12
+# Python Programming 2025 September 10
 
 Welcome to your Python programming journey! This course is designed to take you from complete beginner to confident Python programmer through 6 focused sessions. Each session builds upon the previous one, so we recommend working through them in order.
 
