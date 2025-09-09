@@ -6,10 +6,46 @@ parts:
     chapters:
     - file: exercises.md
       sections:
-      - file: exercises/001.md
-      - file: exercises/002.md
-      - file: exercises/003.md
-      - file: exercises/004.md
-      - file: exercises/005.md
-      - file: exercises/006.md
+      - file: sessions/session1/lesson.md
+        sections:
+        - file: sessions/session1/practice.md
+        - file: sessions/session1/guided-questions.md
+        - file: sessions/session1/practice-questions.md
+        - file: sessions/session1/real-world-example.md
+        - file: sessions/session1/open-ended-questions.md
+      - file: sessions/session2/lesson.md
+        sections:
+        - file: sessions/session2/practice.md
+        - file: sessions/session2/guided-questions.md
+        - file: sessions/session2/practice-questions.md
+        - file: sessions/session2/real-world-example.md
+        - file: sessions/session2/open-ended-questions.md
+      - file: sessions/session3/lesson.md
+        sections:
+        - file: sessions/session3/practice.md
+        - file: sessions/session3/guided-questions.md
+        - file: sessions/session3/practice-questions.md
+        - file: sessions/session3/real-world-example.md
+        - file: sessions/session3/open-ended-questions.md
+      - file: sessions/session4/lesson.md
+        sections:
+        - file: sessions/session4/practice.md
+        - file: sessions/session4/guided-questions.md
+        - file: sessions/session4/practice-questions.md
+        - file: sessions/session4/real-world-example.md
+        - file: sessions/session4/open-ended-questions.md
+      - file: sessions/session5/lesson.md
+        sections:
+        - file: sessions/session5/practice.md
+        - file: sessions/session5/guided-questions.md
+        - file: sessions/session5/practice-questions.md
+        - file: sessions/session5/real-world-example.md
+        - file: sessions/session5/open-ended-questions.md
+      - file: sessions/session6/lesson.md
+        sections:
+        - file: sessions/session6/practice.md
+        - file: sessions/session6/guided-questions.md
+        - file: sessions/session6/practice-questions.md
+        - file: sessions/session6/real-world-example.md
+        - file: sessions/session6/open-ended-questions.md
       - file: exercises/summary

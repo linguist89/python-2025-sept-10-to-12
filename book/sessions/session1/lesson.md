@@ -1,0 +1,101 @@
+(python_variables_1)=
+# Session 1: Python Variables - The Building Blocks
+
+Welcome to your first Python programming session! In this session, you'll learn about variables - the fundamental building blocks that allow you to store and work with data in Python.
+
+::::::{topic} Learning Objectives
+By the end of this session, you will be able to:
+- Understand what variables are and why they're important
+- Create and assign values to variables
+- Use different data types (strings, numbers, booleans)
+- Print variables and their values
+- Follow Python naming conventions
+::::::
+
+## What are Variables?
+
+A **variable** is like a labeled box that can hold different types of information. Think of it as a container with a name tag that you can put things into and take things out of.
+
+In Python, you create a variable by giving it a name and assigning a value to it using the `=` sign.
+
+```python
+# Creating a variable
+name = "Alice"
+age = 25
+is_student = True
+```
+
+## Basic Variable Types
+
+Python has several built-in data types. Let's explore the most common ones:
+
+### 1. Strings (Text)
+Strings are used to store text. They are enclosed in quotes.
+
+```python
+# String variables
+first_name = "John"
+last_name = "Doe"
+message = "Hello, World!"
+```
+
+### 2. Numbers
+Python can handle different types of numbers:
+
+```python
+# Integer (whole numbers)
+age = 25
+count = 100
+
+# Float (decimal numbers)
+height = 5.9
+temperature = 98.6
+```
+
+### 3. Booleans
+Booleans represent True or False values:
+
+```python
+# Boolean variables
+is_raining = True
+is_sunny = False
+has_license = True
+```
+
+## Printing Variables
+
+To see what's stored in a variable, you can use the `print()` function:
+
+```python
+name = "Alice"
+age = 25
+print(name)        # Output: Alice
+print(age)         # Output: 25
+print("My name is", name, "and I am", age, "years old")
+```
+
+## Variable Naming Rules
+
+Python has specific rules for naming variables:
+
+1. **Start with a letter or underscore** (not a number)
+2. **Can contain letters, numbers, and underscores**
+3. **Case sensitive** (age ≠ Age ≠ AGE)
+4. **Cannot use Python keywords** (like `print`, `if`, `for`, etc.)
+
+```python
+# Good variable names
+user_name = "Alice"
+user_age = 25
+is_logged_in = True
+_private_var = "secret"
+
+# Bad variable names (these will cause errors)
+# 2name = "Alice"     # Can't start with number
+# user-name = "Alice"  # Can't use hyphens
+# print = "Hello"      # Can't use Python keywords
+```
+
+::::{tip} Naming Convention
+Use **snake_case** for variable names in Python: separate words with underscores and use lowercase letters. This makes your code more readable!
+::::

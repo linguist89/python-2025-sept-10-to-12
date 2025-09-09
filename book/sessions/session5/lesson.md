@@ -1,0 +1,201 @@
+(python_loops)=
+# Session 5: Repeating Code with Loops
+
+Now that you can make decisions with conditionals, let's learn how to repeat code efficiently! Loops are one of the most powerful features in programming.
+
+::::::{topic} Learning Objectives
+By the end of this session, you will be able to:
+- Use `for` loops to repeat code
+- Use `while` loops for conditional repetition
+- Understand when to use each type of loop
+- Use `range()` function effectively
+- Control loop execution with `break` and `continue`
+::::::
+
+## For Loops
+
+For loops repeat code a specific number of times or iterate through a sequence:
+
+```python
+# Simple for loop
+for i in range(5):
+    print(f"Count: {i}")
+
+# Output:
+# Count: 0
+# Count: 1
+# Count: 2
+# Count: 3
+# Count: 4
+```
+
+## The Range Function
+
+The `range()` function generates a sequence of numbers:
+
+```python
+# Different ways to use range()
+print("range(5):")
+for i in range(5):
+    print(i)  # 0, 1, 2, 3, 4
+
+print("\nrange(1, 6):")
+for i in range(1, 6):
+    print(i)  # 1, 2, 3, 4, 5
+
+print("\nrange(0, 10, 2):")
+for i in range(0, 10, 2):
+    print(i)  # 0, 2, 4, 6, 8
+
+print("\nrange(10, 0, -1):")
+for i in range(10, 0, -1):
+    print(i)  # 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+```
+
+## For Loops with Strings
+
+You can iterate through each character in a string:
+
+```python
+# Iterate through a string
+word = "Python"
+for letter in word:
+    print(letter)
+
+# Output:
+# P
+# y
+# t
+# h
+# o
+# n
+```
+
+## While Loops
+
+While loops repeat code as long as a condition is true:
+
+```python
+# Simple while loop
+count = 0
+while count < 5:
+    print(f"Count: {count}")
+    count += 1
+
+# Output:
+# Count: 0
+# Count: 1
+# Count: 2
+# Count: 3
+# Count: 4
+```
+
+## Practical Examples
+
+### Example 1: Number Guessing Game
+
+```python
+# Number guessing game
+import random
+
+secret_number = random.randint(1, 10)
+attempts = 0
+max_attempts = 3
+
+print("I'm thinking of a number between 1 and 10.")
+print(f"You have {max_attempts} attempts to guess it!")
+
+while attempts < max_attempts:
+    guess = int(input("Enter your guess: "))
+    attempts += 1
+    
+    if guess == secret_number:
+        print(f"Congratulations! You guessed it in {attempts} attempts!")
+        break
+    elif guess < secret_number:
+        print("Too low!")
+    else:
+        print("Too high!")
+    
+    if attempts < max_attempts:
+        print(f"You have {max_attempts - attempts} attempts left.")
+else:
+    print(f"Sorry! The number was {secret_number}.")
+```
+
+### Example 2: Multiplication Table
+
+```python
+# Multiplication table
+number = int(input("Enter a number for multiplication table: "))
+
+print(f"Multiplication table for {number}:")
+print("=" * 20)
+
+for i in range(1, 11):
+    result = number * i
+    print(f"{number} × {i} = {result}")
+```
+
+### Example 3: Sum of Numbers
+
+```python
+# Sum of numbers from 1 to n
+n = int(input("Enter a number: "))
+total = 0
+
+for i in range(1, n + 1):
+    total += i
+
+print(f"The sum of numbers from 1 to {n} is {total}")
+```
+
+## Loop Control: Break and Continue
+
+### Break Statement
+
+The `break` statement exits the loop immediately:
+
+```python
+# Break example
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+
+# Output: 0, 1, 2, 3, 4
+```
+
+### Continue Statement
+
+The `continue` statement skips the rest of the current iteration:
+
+```python
+# Continue example
+for i in range(10):
+    if i % 2 == 0:  # Skip even numbers
+        continue
+    print(i)
+
+# Output: 1, 3, 5, 7, 9
+```
+
+## Nested Loops
+
+You can put loops inside other loops:
+
+```python
+# Nested loops - multiplication table
+print("Multiplication Table:")
+print("   ", end="")
+for i in range(1, 6):
+    print(f"{i:4}", end="")
+print()
+
+for i in range(1, 6):
+    print(f"{i:2}:", end="")
+    for j in range(1, 6):
+        print(f"{i*j:4}", end="")
+    print()
+```
+
