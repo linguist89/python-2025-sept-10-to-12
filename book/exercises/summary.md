@@ -1,26 +1,34 @@
-# Summary of exercises: All Exercises
+# Summary: Python Programming Course
 
-With the simple exercises, you did all the steps of our TeachBooks workflow!
+Congratulations! You've completed all 6 sessions of the Python Programming course. You've learned the fundamental concepts of Python programming and are now ready to build your own programs!
 
-```{figure} https://github.com/TeachBooks/logos_and_visualisations/blob/main/TB_flowchart/TeachBooks_flowchart.svg?raw=true
----
-width: 500px
-align: center
----
-```
+## What You've Learned
 
-Here is how these exercises relate to the workflow.
+Throughout these 6 sessions, you've mastered the essential concepts of Python programming:
 
-| Step No. | Name | Exercise | Description |
-| :---: | :---: | :---: | :---: |
-| 1 | Get and idea | 4 | Create an issue |
-| 2 | Create _your_ version of the book | 4 | Create a branch |
-| 3 | Edit the book | 1, 2, 3, 6, 8| Editing `.md`-files, the `_toc.yml` and the `_config.yml` |
-| 4 | Check changes online | 1, 2, 3, 6, 8 | Workflows and Actions Summary |
-| 5 | Repeat edit and checking | 1, 2, 3, 4, 5, 8 | Keep on doing all the steps until it's ready|
-| 6 | Submit for review | 5, 7 | Open and merge a Pull Request, from a branch or forks |
+| Session | Topic | Key Skills |
+| :---: | :---: | :---: |
+| 1 | Python Variables | Creating variables, data types, naming conventions |
+| 2 | Working with Variables | Mathematical operations, string manipulation, type conversion |
+| 3 | User Input and Output | Interactive programs, input handling, string formatting |
+| 4 | Making Decisions | Conditional statements, comparison operators, logical operators |
+| 5 | Repeating Code | For loops, while loops, loop control, nested loops |
+| 6 | Functions | Creating functions, parameters, return values, reusable code |
 
-## Keep practicing
+## Real-World Applications
 
-For additional practice, there are more exercises relating to the capacities of each user type. 
-Have a look in the [manual](https://teachbooks.io/manual/installation-and-setup/user_types.html) to see which user type you are!
+You've learned to apply Python concepts to practical scenarios:
+- **Data Analysis**: Working with numbers and calculations
+- **User Interfaces**: Creating interactive programs  
+- **Automation**: Using loops and functions to solve repetitive tasks
+- **Problem Solving**: Breaking down complex problems into manageable steps
+
+## Next Steps
+
+You're now ready to:
+- Build your own Python projects
+- Explore more advanced Python topics (lists, dictionaries, file handling)
+- Join Python communities and contribute to open source projects
+- Continue learning with more specialized Python courses
+
+Keep practicing and building projects - that's the best way to become a confident Python programmer!
