@@ -49,3 +49,20 @@ parts:
         - file: sessions/session6/real-world-example.md
         - file: sessions/session6/open-ended-questions.md
       - file: exercises/summary
+    - file: exercises_sept11.md
+      sections:
+      - file: sessions/session7/lesson.md
+        sections:
+        - file: sessions/session7/real-world-problem.md
+        - file: sessions/session7/guided-function-creation.md
+        - file: sessions/session7/practice-functions.md
+      - file: sessions/session8/lesson.md
+        sections:
+        - file: sessions/session8/real-world-problem.md
+        - file: sessions/session8/guided-function-creation.md
+        - file: sessions/session8/practice-functions.md
+      - file: sessions/session9/lesson.md
+        sections:
+        - file: sessions/session9/real-world-problem.md
+        - file: sessions/session9/guided-function-creation.md
+        - file: sessions/session9/practice-functions.md
