@@ -66,3 +66,14 @@ parts:
         - file: sessions/session9/real-world-problem.md
         - file: sessions/session9/guided-function-creation.md
         - file: sessions/session9/practice-functions.md
+    - file: exercises_sept12.md
+      sections:
+      - file: sessions/session10/lesson.md
+        sections:
+        - file: sessions/session10/practice-classes.md
+      - file: sessions/session11/lesson.md
+        sections:
+        - file: sessions/session11/practice-classes.md
+      - file: sessions/session12/lesson.md
+        sections:
+        - file: sessions/session12/practice-classes.md
